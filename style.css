@@ -1,0 +1,158 @@
+body{
+  font-family: 'Rubik', sans-serif;
+  font-size: medium;
+  background-image: url("images/thumb-1920-501038.jpg");
+  color: aqua;
+  }
+
+h1{
+  font-size: medium 500;
+}
+
+a{
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover{
+  color: #141516;
+}
+
+#img-style{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.card-white {
+  background-color: rgba(0,0,0,0.1);
+  padding: 30px;
+  box-shadow: 0px 10px 30px rgba(63, 59, 59, 0.1);
+  border-radius: 8px;
+  margin: 20px 300px;
+  text-align: center;
+}
+
+.test{
+  text-align: center;
+  background-image: url("images/6b5036f5bd066ea025dc30ba2fe8a7a4.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 30px;
+  text-shadow: #fc0 1px 0 10px;
+}
+
+.test-2{
+  text-align: center;
+  background-image: url("images/steven-seagal-lawman.webp");
+  background-position: center;
+  background-size: cover;
+  padding: 30px;
+  text-shadow: #fc0 1px 0 10px;
+}
+
+.test-3{
+  text-align: center;
+  background-image: url("images/carrot.avif");
+  background-position: 20% 30%;;
+  background-size: cover;
+  padding: 30px;
+  text-shadow: #fc0 1px 0 10px;
+}
+.test-4{
+  text-align: center;
+  background-image: url("images/thoughts.jpg");
+  background-position: 20% 35%;;
+  background-size: cover;
+  padding: 50px;
+  text-shadow: #fc0 1px 0 10px;
+}
+.test-5{
+  text-align: center;
+  background-image: url("images/thumb-1920-501038.jpg");
+  background-position: 20% 35%;;
+  background-size: cover;
+  padding: 50px;
+  text-shadow: #fc0 1px 0 10px;
+}
+
+.gif{
+position: absolute;
+bottom: -558px;
+left: 8px;
+height: 235px;
+width: 291px;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.btn-style{
+background-color: rgb(174, 46, 46);
+color: white;
+padding: 10px 20px;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+.btn-hover{
+background-color: black;
+color: white;
+}
+
+.social{
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-size: 40px;
+
+}
+
+ul{
+  padding: 0;
+}
+li{
+  list-style: none;
+  display: inline;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
